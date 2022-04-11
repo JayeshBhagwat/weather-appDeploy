@@ -20,7 +20,8 @@ body {
     border-radius: 300px;
     /* border-right: 5px solid green; */
     /* border-left: 5px solid green; */
-    border-bottom: 10px solid green;;
+    border-bottom: 10px solid green;
+    ;
     /* opacity: 100%; */
     /* filter: contrast(150%); */
 }
@@ -73,29 +74,31 @@ button {
     width: 150px;
     border-radius: 20px;
 }
-button:hover{
+
+button:hover {
     background-color: #86bedf;
 }
 
-.input-anButton{
+.input-anButton {
     text-align: center;
     margin-top: 250px;
 }
 
-.place-holder{
+.place-holder {
     font-size: xx-large;
     text-align: center;
     font-weight: bold;
+    width: 60%;
 }
 
-#message-1{
+#message-1 {
     text-align: center;
     font-size: xx-large;
     color: white;
     text-shadow: 2px 2px black;
 }
 
-#message-2{
+#message-2 {
     margin-top: 50px;
     text-align: center;
     font-size: xx-large;
@@ -104,7 +107,7 @@ button:hover{
     text-shadow: 2px 2px black;
 }
 
-#message-icon{
+#message-icon {
     margin: auto;
     height: 100px;
     border-radius: 15px;
@@ -114,19 +117,25 @@ button:hover{
     -webkit-box-shadow: 5px 5px 10px rgb(200, 173, 173);
     box-shadow: 0 0 15px rgb(173, 148, 148);
 }
-#message-icon:hover{
+
+#message-icon:hover {
     height: 110px;
     width: 120px;
     transition: 0.5s;
     /* transition-delay: 2s; */
 }
 
-#weather-desc{
-    /* text-align: center; */
-    margin-left: 10px;
-    padding-left: 5px;
+#weather-desc {
+    text-align: center;
+    /* margin-left: 10px; */
+    /* padding-left: 5px; */
     font-size: x-large;
     font-style: italic;
     color: white;
     text-shadow: 1px 1px black;
+}
+
+.report {
+    margin-left: 15%;
+    width: 70%;
 }
