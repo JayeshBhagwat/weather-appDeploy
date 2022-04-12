@@ -112,7 +112,7 @@ button:hover {
     height: 100px;
     border-radius: 15px;
     /* margin-left: 270px; */
-    margin-left: 160px;
+    margin-left: 8%;
     -moz-box-shadow: 5px 5px 5px rgb(185, 163, 163);
     -webkit-box-shadow: 5px 5px 10px rgb(200, 173, 173);
     box-shadow: 0 0 15px rgb(173, 148, 148);
